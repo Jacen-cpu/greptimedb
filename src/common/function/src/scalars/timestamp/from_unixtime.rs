@@ -82,10 +82,12 @@ impl Function for FromUnixtimeFunction {
 }
 
 impl fmt::Display for FromUnixtimeFunction {
+
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         write!(f, "FROM_UNIXTIME")
     }
 }
+
 
 #[cfg(test)]
 mod tests {

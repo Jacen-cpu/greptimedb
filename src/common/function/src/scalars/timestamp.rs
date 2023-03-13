@@ -14,8 +14,10 @@
 
 use std::sync::Arc;
 mod from_unixtime;
+mod to_unixtime;
 
 use from_unixtime::FromUnixtimeFunction;
+// use to_unixtime::ToUnixtimeFuntion;
 
 use crate::scalars::function_registry::FunctionRegistry;
 
